@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+   
+    height: 120px;
+    width: auto;
+    align-items: center;
+}
+.logo img{
+width: 150px;
+margin-left: 20px;
+margin-right: 60px;
+}
+
+.barra_pesquisa{
+    display: flex;
+    align-items: center;
+    width: 695px;
+    height:60px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+}
+.barra_pesquisa:hover{
+    box-shadow: 0px 0px 3px  #888888; 
+}
+.barra_pesquisa input{
+    justify-content: flex-start;
+    height: 50px;
+    margin-left: 20px;
+    width:550px;
+    outline: 0; 
+    border-style: none;
+    font-size: 16px;
+}
+.pipe{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: #888888;
+}
+
+.icons_mic,.icons_search{
+   margin-right: 15px;
+
+}
+
+.barra_pesquisa .icons_mic img {
+  width: 20px;
+ 
+}
+.barra_pesquisa .icons_search img {
+  width:30px;
+}
+
+
+
